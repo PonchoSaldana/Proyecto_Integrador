@@ -23,9 +23,6 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::post('/login', function () {
-    // Lógica para procesar el inicio de sesión
-});
 Route::get('/carrito', function () {
     return view('carrito');
 });
